@@ -1,0 +1,21 @@
+.welcome {
+    height: 50vh;
+
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    color: white;
+}
+
+.welcome__header {
+    text-transform: uppercase;
+    font-size: 45px;
+}
+
+.welcome__description {
+    font-size: 18px;
+    margin-top: 25px;
+}

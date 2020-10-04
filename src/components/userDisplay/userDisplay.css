@@ -1,0 +1,49 @@
+.user-display {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    padding: 8px 15px;
+
+    border-radius: 0 0 0 15px;
+    background-color:  #031124;
+}
+
+.user-display__welcome {
+    color: white;
+    margin-right: 10px;
+}
+
+.user-display__logout {
+    padding: 5px 10px;
+
+    color: white;
+    border: 0;
+    background-color: transparent;
+    border: 2px solid #11b806;
+    border-radius: 24px;
+
+    text-align: center;
+    outline: none;
+
+    transition: 0.25s;
+    cursor: pointer;
+}
+
+.user-display__logout:hover {
+    background: #11b806;
+}
+
+.user-display__edit {
+    color: #fff;
+    font-size: 18px;
+    margin: 0 8px;
+
+    cursor: pointer;
+
+    transition: linear 0.25s;
+}
+
+.user-display__edit:hover {
+    color:  #0a5ac9;
+}
